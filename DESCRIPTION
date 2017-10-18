@@ -1,0 +1,12 @@
+Package: IlluminaHumanMethylationEPICanno.ilm10b4.hg19
+Version: 0.6.0
+Title: Annotation for Illumina's EPIC methylation arrays
+Description: An annotation package for Illumina's EPIC methylation arrays.
+Authors@R: c(person(c("Kasper", "Daniel"), "Hansen", role = c("cre", "aut"),
+                    email = "kasperdanielhansen@gmail.com"))
+License: Artistic-2.0
+URL: https://bitbucket.com/kasperdanielhansen/Illumina_EPIC
+BugReports: https://bitbucket.com/kasperdanielhansen/Illumina_EPIC/issues
+Depends: R (>= 3.3.0), minfi (>= 1.19.15)
+LazyData: yes
+biocViews: AnnotationData, IlluminaChip, Homo_sapiens
